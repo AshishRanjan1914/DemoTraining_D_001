@@ -1,0 +1,48 @@
+##Web Application##
+
+Selenium -- 3.xx.x
+
+Lang. Bindings .. 
+
+Java / Python, C#, Ruby, PHP, JS
+
+=============JAVA=============30hr===
+Core Java	--- 
+	Data Types,
+	Class,
+	Methods,
+	Members ..
+	Constructor,
+	OOPS - Inheritance/Poly/Abstrction/Encapsulation
+	Error/Exception Handling
+	Collection - List / Set /map.
+	
+Selenium - Actions..
+	Simulate Browser Actions.
+
+Assertions / Validation-[Testing Framework]
+	JUnit / TestNG(Y)..
+		Validations
+		Group.
+		Hooks - Listerns - Pre-post.
+		Running configurations.
+		
+===Test Automation Framework======
+		DataDriven Framework
+		Page Object Modal	
+		
+========Advanced Stuff===========
+Code Base Management (VCS)
+	SVN / GIT - GIT & GITHUB
+	
+Build Automation Tools-
+	Ant /IVY/ Maven/Gradle - Maven(Y)
+		clean/Compile/run/test run/package/install/deply		
+
+
+CI - Countinious Integration..
+	Teamcity / Jenkins/ TravisCI / Bamboo.. (Jenkins)		
+	
+	
+	==========API Manual + Automation==========15- 20 hr===
+		RestAssured - API 

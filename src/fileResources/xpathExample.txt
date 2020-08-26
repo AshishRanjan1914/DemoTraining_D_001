@@ -1,0 +1,78 @@
+##Xpaths-
+ancestor
+parents
+siblings - following- / preceding siblings
+
+===================Types============
+Absolute xpath = .... fast. / flaky = /html/body/div/div/div/div/div/form/div[5]/input
+Relative xpath = ....
+
+
+single slash(/) - start of node or immediate child
+/html/body/div/div/div/div/div/form/div/input
+
+## More than one element = selenium operates on 1st element
+
+==========Relative xpath========================
+
+// - anywhere in the entire html
+Basic syntax = //tagename[@AttributeName='AttributeValue']
+
+
+##<input type="submit" name="Submit" class="button" id="btnLogin" value="LOGIN">
+//input[@value='LOGIN']
+//input[@id='btnLogin']
+//input[@name='Submit']
+//input[@type='submit']
+//input[@class='button']
+
+===========Logical operations=======
+//input[@class='button' and @id='btnLogin']
+//input[@class='button' or @id='btnLogin']
+
+####========refering childs=======###########
+
+//div[@id='divLoginButton']/input
+
+//div[@id='divLoginForm']//div[@id='forgotPasswordLink']
+
+===========WildCard supports========
+//*[@id='divLoginForm']//*[@id='forgotPasswordLink']
+==========
+==============Dynamic Elements============
+
+## contains
+//*[contains(@id,'Login') and @value='LOGIN']
+## starts-with
+//*[starts-with(@id,'btnLo') and @value='LOGIN']
+
+==================Parent & Ancestor reference========
+Single Level Parent Node [/..]= //a[@id='menu_admin_viewAdminModule']/..
+
+//a[@id='menu_admin_viewAdminModule']/parent::*
+
+###ancestor
+//a[@id='menu_admin_viewAdminModule']/ancestor::div[@id='mainMenu']
+
+##Siblings
+//a[@id='menu_recruitment_viewRecruitmentModule']/parent::li/following-sibling::li[4]
+
+//a[@id='menu_recruitment_viewRecruitmentModule']/parent::li/preceding-sibling::li[2]
+
+=========following & preceding=========
+//*[@id='mainMenu']/preceding::*
+//*[@id='mainMenu']/following::*
+
+============Text==========
+//*[text()='Leave']
+//*[contains(text(),'Leave')]
+
+=
+//*[.='Leave']
+//*[contains(.,'Leave')]
+//*[.='Reports']
+
+======Getting from Chrome========
+Copy Full Path (Absolute)= /html/body/div[1]/div[2]/ul/li[3]/ul/li[2]/a
+
+Copy Xpath(Relative) = //*[@id="menu_leave_Reports"]

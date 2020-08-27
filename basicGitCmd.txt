@@ -13,7 +13,7 @@ git status
 git add src/fileResources/xpathExample.txt
 git status
 
-
+git log - log the commit history
 
 
 =Branches---

@@ -1,0 +1,19 @@
+==========GIT - VCS=============
+git init - initialize repo to track
+git status - current status
+git add src/ - File stage..(to mark it ready to be commited.)
+git status
+git commit -m "Inital project commit" - (commiting.)
+git status
+git status
+git status
+git checkout -- src/fileResources/xpathExample.txt
+git status
+git status
+git add src/fileResources/xpathExample.txt
+git status
+
+
+
+
+=Branches---

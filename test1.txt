@@ -1,3 +1,7 @@
 sadsdsda
+
+I am on master
+
 I am on mynewbranch
 I am new line.
+

@@ -7,22 +7,13 @@ git commit -m "Inital project commit" - (commiting.)
 git status
 git status
 git status
-git checkout -- src/fileResources/xpathExample.txt
+git checkout -- src/fileResources/xpathExample.txt - (Reset my unstaged changes)
 git status
 git status
 git add src/fileResources/xpathExample.txt
 git status
 
-git log - log the commit history
- 
- 
- git remote add origin https://github.com/AshishRanjan1914/DemoTraining_D_001.git
- 
- 
-  git remote -v
-origin  https://github.com/AshishRanjan1914/DemoTraining_D_001.git (fetch)
-origin  https://github.com/AshishRanjan1914/DemoTraining_D_001.git (push)
 
-================
-github/gitlab/stash/bitbucket/
+
+
 =Branches---
